@@ -9,11 +9,11 @@ This repository contains a complete pipeline for fine-tuning Large Language Mode
 1. **Llama-3.1:8b Trump Model**: [HuggingFace Link](https://huggingface.co/pookie3000/Meta-Llama-3.1-8B-trump-Q4_K_M-GGUF)
 2. **Gemma-3n:e2b Trump Model**: [HuggingFace Link](https://huggingface.co/pookie3000/gemma-3n-E2B-donald-trump-Q8_0-GGUF)
 
+Both checkpoints are checked into `models/llama-3.1/` and `models/gemma-3n/`. We also evaluated the fine-tuned `Meta-Llama-3.1-8B-trump` and `Gemma-3n-E2B-donald-trump` variants on a shared list of prompts and recorded their responses to compare tone matching, topical recall, and policy adherence.
+
 ## Dataset
 
-The training dataset which was created using transcripts and synthetic data.
-
-[HuggingFace Link](https://huggingface.co/datasets/pookie3000/donald_trump_interviews)
+All Trump speeches and interviews used for training live in the curated [HuggingFace dataset](https://huggingface.co/datasets/pookie3000/donald_trump_interviews), which combines transcript cleanup with synthetic augmentations. Fine-tuning both checkpoints on this corpus produced strong style fidelity—the generated answers mirror rally rhetoric, press-briefing cadence, and policy talking points surprisingly well.
 
 ## 📁 Project Structure
 
