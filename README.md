@@ -1,5 +1,5 @@
 # Trump Lora Finetuning
-
+ 
 ![alt text](assets/trump.png)
 
 This repository contains a complete pipeline for fine-tuning Large Language Models (LLMs) to mimic Donald Trump's speaking style. The project includes data collection, synthetic data generation, model training, and model inference code. The training is done using Unsloth.
