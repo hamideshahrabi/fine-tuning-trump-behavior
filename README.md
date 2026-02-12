@@ -2,8 +2,8 @@
  
 ![alt text](assets/trump.png) 
 
-This repository contains a complete pipeline for fine-tuning Large Language Models (LLMs) to mimic Donald Trump's speaking style. The project includes data collection, synthetic data generation, model training, and model inference code. The training is done using Unsloth.
-
+This repository contains a complete pipeline for fine-tuning Large Language Models (LLMs) to mimic Donald Trump's speaking style. The project includes data collection, synthetic data generation, model training, and model inference code. The training is done using Unsloth. 
+ 
 ## Trained models
 
 1. **Llama-3.1:8b Trump Model**: [HuggingFace Link](https://huggingface.co/pookie3000/Meta-Llama-3.1-8B-trump-Q4_K_M-GGUF)
